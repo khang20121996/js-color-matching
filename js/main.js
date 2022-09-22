@@ -152,6 +152,7 @@ function initCountDownTimer(time) {
       gameStatusElement.textContent = 'GAME OVER'
       timerElement.textContent = ''
       replayButtonElement.classList.add('show')
+      gameStatus = GAME_STATUS.BLOCKING
     }
   }, 1000)
 }
